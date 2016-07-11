@@ -1,0 +1,19 @@
+<div class= "fs">
+<%= form_for @hello, remote:true do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_area :name  %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+</div>
+<div class="ajax-loading">
+	  <span>
+	    <p id="please_wait"><strong>Please wait..</strong></p>
+	    <p><i class="glyphicon glyphicon-refresh gly-spin" aria-hidden="true"></i></p>
+	  </span>
+	</div>

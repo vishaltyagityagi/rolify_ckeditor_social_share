@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vishal</title>
+  <%= stylesheet_link_tag    'application' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%=render partial: "shared/header"%>
+ <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+
+<div id="user_nav">
+  <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>. Not you?
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+  <% else %>
+    <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
+  <% end %>
+</div>
+
+
+<div id="user_nav">
+  <a href='http://www.facebook.com/sharer.php?s=100&p[title]=WEB1CHANNEL&p[summary]=Web+Design+Company+in+Dubai.&p[url]=http://www.webchannel.ae&p[images][0]=http://qacode.com/test.jpg'>Facebook Share</a><br>
+
+
+  <% if current_user %>
+    Signed in as <strong><%= current_user.name %></strong>!
+    <%= link_to "Sign out", signout_path, id: "sign_out" %>
+  <% else %>
+    <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+  <% end %>
+</div>
+
+
+
+
+<%= yield %>
+<%=render partial: "shared/footer"%>
+</body>
+</html>

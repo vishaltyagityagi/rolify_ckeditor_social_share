@@ -1,0 +1,29 @@
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *default
+  database: vk_developmentt
+  username: root
+  password: root
+
+
+
+test:
+  <<: *default
+  database: vk_testt
+  username: root
+  password: root
+
+
+production:
+  <<: *default
+  database: vk_productiont
+  username: root
+  password: root

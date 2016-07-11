@@ -1,0 +1,365 @@
+	/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require social-share-button
+ *= require bootstrap.min
+ *= require style
+
+ *= require_self
+ */
+
+.margin-bottom-10 {
+	margin-bottom: 10px !important;
+}
+.margin-top-12 {
+  margin-top: 12px !important;
+}
+.margin-top-5 {
+  margin-top: 5px !important;
+}
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+.margin-bottom-0 {
+  margin-bottom: 0px !important;
+}
+.mw-370 {
+  max-width: 370px !important;
+}
+.mw-550 {
+  max-width: 550px !important;
+}
+.w180 {
+  width: 180px !important;
+}
+.w170 {
+  width: 170px !important;
+}
+.w150 {
+  width: 150px !important;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pr21 {
+  padding-right: 21px !important;
+}
+.ml115 {
+  margin-left: -115px !important;
+}
+.ml130 {
+  margin-left: -130px !important;
+}
+.lh28 {
+  line-height: 28px !important;
+}
+.position-inherit {
+	position: inherit !important;
+}
+.font-weight-600 {
+	font-weight: 600;
+}
+.fs13-small {
+  font-size: 13.4px !important;
+}
+.fs18 {
+  font-size: 18px !important;
+}
+.btn-next {
+  display: inline-block !important;
+  border: 0 none;
+}
+.width-120 {
+  width: 120px !important;
+}
+.area1 span {
+  color: #949494;
+  display: table-cell;
+  font-weight: 700;
+  line-height: 18px;
+  vertical-align: middle;
+  outline: medium none;
+  text-decoration: none;
+  transition: all 300ms ease-in-out 0s;
+}
+.active-step2 {
+  background: #8CA772 !important;
+}
+.text-align-center {
+  text-align: center !important;
+}
+.text-align-left {
+  text-align: left !important;
+}
+.text-align-right {
+  text-align: right !important;
+}
+.padding-10 {
+  padding: 10px 0;
+}
+.pright-5 {
+  padding-right: 5px !important;
+}
+.pleft-5 {
+  padding-left: 5px !important;
+}
+.padding-10-40 {
+  padding: 10px 40px;
+}
+.padding-4-20 {
+  padding: 4px 20px !important;
+}
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+.margin-right-0 {
+  margin-right: 0px !important;
+}
+.banrTerms {
+  padding: 0px 20px;
+  max-width: 940px;
+}
+.small-modal-margin {
+  margin-top: 15%;
+}
+.bg-color-green {
+  background-color: #8ca772 !important;
+}
+.def-icon {
+  color: #fff !important;
+  font-size: 20px !important;
+}
+#message {
+  display: none;
+}
+.break-all {
+  word-break: break-all;
+}
+.min-width-600 {
+  min-width: 600px;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.padding-5 {
+  padding: 5px !important;
+}
+.padding-0 {
+  padding: 0px !important;
+}
+.fs-30 {
+  font-size: 30px !important;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+.mt5 {
+  margin-top: 5px !important;
+}
+.width-10 {
+  width: 10%;
+}
+.wauto {
+  width: auto !important;
+}
+.bf-info {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.total-price {
+  padding-left: 10px;
+  text-align: left !important;
+  font-size: 16px !important;
+}
+.bt-1 {
+  border-top: 1px solid #e2e2e2 !important;
+}
+.bc-eee {
+  background-color: #eee !important;
+}
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+.glyphicon.glyphicon-edit {
+  color: #8b8b8b;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.error {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-top: 2px;
+  background: #f2dede;
+  border-color: #ebccd1;
+  color: #b94a48;
+  background-size: 20px 20px;
+  width: 100% !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  text-align: left;
+  font-size: 12px;
+  line-height: normal !important;
+}
+.display-table {
+  display: table !important;
+}
+.display-none {
+  display: none;
+}
+.margin-0 {
+  margin: 0px !important;
+}
+.has-error label.error {
+  text-transform: none !important;
+}
+#error_messages {
+  z-index: 999;
+}
+.relt {
+  position: relative;
+}
+.posFix {
+  width: 270px;
+  position: fixed;
+  bottom: 60px;
+}
+.subscriptions .table tbody tr td:last-child {
+  text-align: left !important;
+}
+.border-credits {
+  border: 1px solid #bdcbae;
+  border-radius: 5px;
+}
+.bg-dashboard{
+  background: rgba(0,0,0,0) linear-gradient(to right,#e3e3e3 0%, #f6f6f6 50%, #e3e3e3 100%) repeat scroll 0 0;
+}
+.bg-padding{
+  padding: 45px !important;
+}
+.my-acc{
+  font-weight: 100 !important;
+  color: #8ba66f !important;
+  font-size: 28px !important;
+}
+.my-acc-edit{
+  font-weight: 100 !important;
+  color: #8ba66f !important;
+  font-size: 38px !important;
+}
+#myplan {
+  min-height: 228px !important;
+}
+.font-padding{
+  font-weight: 300 !important;
+  padding-top: 24px!important;
+}
+.change-pass{
+  width: 49% !important;
+}
+.m-plan{
+  font-weight: 300 !important;
+}
+.quick_start_h1{
+  font-weight: 100 !important;
+  color: #8ba66f !important;
+}
+.heading-hd {
+  color: #8ba66f !important;
+  font-size: 22px;
+}
+.color-lgreen {
+  color: #8ba66f !important;
+}
+#floor_plan_message {
+  color: #000000;
+}
+div.ajax-loading{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: none;
+  background: rgba(51,51,51,0.9);
+  z-index: 2000;
+  text-align: center;
+  color: #ffffff;
+}
+div.ajax-loading span{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -15px;
+}
+div.ajax-loading span p{
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 1.1em;
+}
+div.ajax-loading span p i{
+  color: #09c1c1;
+  font-size: 1.5em;
+}
+.gly-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.social-share-button-facebook {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("/social/facebook.png") no-repeat;
+}
