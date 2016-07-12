@@ -17,13 +17,13 @@ development:
 
 test:
   <<: *default
-  database: vk_testt
+  database: vk_developmentt
   username: root
   password: root
 
 
 production:
   <<: *default
-  database: vk_productiont
+  database: vk_developmentt
   username: root
   password: root

@@ -24,6 +24,11 @@ class HellosController < ApplicationController
   # POST /hellos
   # POST /hellos.json
   def create
+    # simple mailer
+    # UserMailer.teacher_mailer(@message).deliver_now
+    # delayed job mailer
+    UserMailer.delay(run_at: Time.now+30.seconds).teacher_mailer(@message)
+
     @hello = Hello.new(hello_params)
 
     

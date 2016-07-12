@@ -7,9 +7,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
     if resource.save
       role_type = params[:role_type]
       if role_type.present?
-        byebug
+        
         resource.add_role role_type 
-        UserMailer.teacher_mailer(@message).deliver_now
+        
       end
       yield resource if block_given?
       if resource.active_for_authentication?

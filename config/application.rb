@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module Vishal
   class Application < Rails::Application
+    config.active_job.queue_adapter = :delayed_job
+    config.assets.initialize_on_precompile = false
     
     config.to_prepare do
       # Load application's model / class decorators
@@ -36,6 +38,5 @@ module Vishal
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    config.assets.initialize_on_precompile = false
   end
 end

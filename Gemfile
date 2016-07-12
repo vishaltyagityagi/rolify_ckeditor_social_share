@@ -53,3 +53,7 @@ gem 'rolify'
 gem 'pg'
 gem 'cancancan'
 gem 'activeadmin', '~> 1.0.0.pre4'
+gem 'delayed_job_active_record'
+gem 'whenever', :require => false
+gem 'puma', '~> 2.14.0'
+
